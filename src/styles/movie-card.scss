@@ -1,5 +1,6 @@
 .movie-card {
   position: relative;
+  transition: 0.5s;
 
   img {
     width: 14.31rem;
@@ -17,6 +18,7 @@
     justify-content: center;
 
     background: rgba(31, 34, 41, 0.5);
+    
 
     .movie-info {
       max-width: 12.31rem;
@@ -56,4 +58,7 @@
       }
     }
   }
+  &:hover {
+    bottom: 1rem;
+    box-shadow: -5px -5px 5px 0px rgba(46,48,60,1);  }
 }
